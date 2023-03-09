@@ -3,10 +3,10 @@ navname: Bentham's Blog
 
 # navigatior items
 nav:
-  Posts: /archives
-  Categories: /category
-  Tags: /tag
-  About: /about
+  #Posts: /archives
+  #Categories: /category
+  #Tags: /tag
+  #About: /about
 
 # favicon
 favicon: /favicon.ico
@@ -23,7 +23,7 @@ avatar: /image/avatar.jpeg
 ## Complete url after key words.
 ## Unused key can be commented out.
 links:
-  Blog: /archives
+  # Blog: /archives
   # Category:
   # Tags: 
   # Link:
@@ -33,7 +33,7 @@ links:
   # Gallery:
   # RSS:
   # AliPay:
-  ZhiHu: https://www.zhihu.com/people/sirice
+  # ZhiHu: https://www.zhihu.com/people/sirice
   # LinkedIn:
   # FaceBook:
   # Twitter:
@@ -43,13 +43,13 @@ links:
   # Sketch:
   # Gitlab:
   # Dribbble:
-  Instagram:
-  Reddit:
+  # Instagram:
+  # Reddit:
   # YouTube:
   # QQ:
   # Weibo:
   # WeChat:
-  Github: https://github.com/Siricee
+  #Github: https://github.com/Siricee
 
 # how links show: you have 2 choice--text or icon.
 links_text_enable: false
