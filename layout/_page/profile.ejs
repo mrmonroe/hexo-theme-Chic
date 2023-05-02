@@ -1,5 +1,8 @@
 <div class="container profile-container">
     <div class="intro">
+        <div>
+            <a href="<%- url_for(theme.nav.Subscribe) %>">Subscribe for Exclusive Content and Updates!</a>
+        </div>
         <div class="avatar">
             <a href="<%- url_for(theme.nav.Posts) %>"><img src="<%- url_for(theme.avatar) %>"></a>
         </div>
@@ -7,17 +10,17 @@
         <div class="description"><%- markdown(theme.description) %></div>
         <div class="links">
             <% if (theme.links !== undefined) { %>
-                <% for (var key in theme.links){ %>
-                    <a class="link-item" title="<%- key %>" href="<%= theme.links[key] %>">
-                        <% if(theme.links_text_enable) { %>
-                            <%= key %>
-                        <%}%>
+            <% for (var key in theme.links){ %>
+            <a class="link-item" title="<%- key %>" href="<%= theme.links[key] %>">
+                <% if(theme.links_text_enable) { %>
+                <%= key %>
+                <%}%>
                         <%if(theme.links_icon_enable){ %>
-                            <i class="iconfont icon-<%- key.toLowerCase() %>"></i>
-                        <%}%>
+                <i class="iconfont icon-<%- key.toLowerCase() %>"></i>
+                <%}%>
                     </a>
                 <% } %>
-            <% } %>
+                <% } %>
         </div>
     </div>
 </div>
